@@ -12,3 +12,6 @@ spring:
       hibernate:
         show_sql: true
         ddl-auto: create
+
+server:
+  port: 8090

@@ -26,6 +26,12 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	compile 'org.postgresql:postgresql:42.2.16.jre7'
+	// https://mvnrepository.com/artifact/org.mockito/mockito-all
+	testImplementation group: 'org.mockito', name: 'mockito-all', version: '1.10.19'
+
+
+	compile 'junit:junit:4.13.2'
+	compile 'org.junit.jupiter:junit-jupiter-api:5.8.0-M1'
 }
 
 test {

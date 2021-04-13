@@ -1,6 +1,7 @@
 package com.freightfox.meeting.scheduler.controller;
 
 import com.freightfox.meeting.scheduler.model.AppUser;
+import com.freightfox.meeting.scheduler.model.FreeSlotInput;
 import com.freightfox.meeting.scheduler.service.UserService;
 import com.freightfox.meeting.scheduler.service.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,4 +21,6 @@ public class UsersController {
     public AppUser createUser(@RequestBody AppUser user){
         return userService.createUser(user);
     }
+
+
 }
