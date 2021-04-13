@@ -6,6 +6,7 @@ import com.freightfox.meeting.scheduler.model.MeetingModel;
 import com.freightfox.meeting.scheduler.model.MeetingSlot;
 import com.freightfox.meeting.scheduler.model.ReturnDetails;
 import com.freightfox.meeting.scheduler.service.MeetingSchedulerService;
+import io.swagger.annotations.SwaggerDefinition;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

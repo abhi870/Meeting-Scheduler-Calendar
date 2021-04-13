@@ -28,6 +28,12 @@ dependencies {
 	compile 'org.postgresql:postgresql:42.2.16.jre7'
 	// https://mvnrepository.com/artifact/org.mockito/mockito-all
 	testImplementation group: 'org.mockito', name: 'mockito-all', version: '1.10.19'
+	// https://mvnrepository.com/artifact/io.springfox/springfox-swagger2
+	implementation group: 'io.springfox', name: 'springfox-swagger2', version: '2.9.2'
+
+
+// https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui
+	implementation group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.9.2'
 
 
 	compile 'junit:junit:4.13.2'
